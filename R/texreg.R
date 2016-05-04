@@ -973,7 +973,7 @@ htmlreg <- function(l, file = NULL, single.row = FALSE,
     if (length(st) == 4) {
       snote <- paste0("<sup", css.sup, ">", star.symbol, star.symbol, 
           star.symbol, "</sup>p &lt; ", st[1], ", <sup", css.sup, ">", 
-          star.symbol, star.symbol, "</sup", css.sup, ">p &lt; ", st[2], 
+          star.symbol, star.symbol, "</sup>p &lt; ", st[2],
           ", <sup", css.sup, ">", star.symbol, "</sup>p &lt; ", 
           st[3], ", <sup", css.sup, ">", symbol, "</sup>p &lt; ", st[4])
     } else if (length(st) == 3) {
